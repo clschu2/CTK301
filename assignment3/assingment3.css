@@ -1,0 +1,36 @@
+.headers1{
+    background-color: darkblue;
+    color:deeppink;
+}
+
+.h2 {  
+    background-color: blueviolet;
+    color:cyan;
+}
+
+.h3 {
+    color:midnightblue;
+    background-color: lightblue;
+}
+
+#div1 {
+    color:darkturquoise;
+    background-color: indigo;
+}
+
+#span1 {
+    color:gray;
+    background-color: gold;
+}
+
+a {
+    color:#ff0000;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color:yellow;
+}
