@@ -1,0 +1,42 @@
+#firstblock {   
+    background-color: #96a6f6;
+}
+
+.headerone {
+    color:white
+}
+
+#headertwo {
+    color: blue;
+}
+
+.paraspan {
+    color: orange;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.father {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.art {
+    background-color:palegreen
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
