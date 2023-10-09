@@ -1,0 +1,95 @@
+body { background-image: url(background7.jpeg); }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #2140be;
+  background-color: #ffffff;
+  display: grid; 
+  grid-template-columns: repeat (6, 1fr) ;}
+
+
+header {
+  grid-column: span 12;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: royalblue;}
+
+    h1 a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: normal;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;}
+        h1 a:hover {color: lightblue;}
+
+header ul {
+    background-color: #ffffff;
+  list-style-type: none ;
+  margin: 0px;
+  padding: 5px;}
+header li {width: 230px;
+    display: inline-block;}
+header li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    height: 25px;
+    border: 3px solid black;
+    color: lightgray;
+    background-color: green;
+    text-decoration: none;
+    text-align: center;}
+  header li a:hover {
+    color: green;
+    background-color: lightgreen;}
+
+
+main { grid-column: span 6;
+    Padding: 25px;}
+    main h2 {
+    font-weight: bold;
+    color: black;
+    border-bottom: 3px solid black;}
+    main a {
+        font-weight: bold;
+        color: green;
+        text-decoration: none;}
+        main a:hover {color:lightgreen;}
+    main img {
+        float: right;
+        margin: 10px;
+        width: 250px;
+    }
+        
+
+aside {
+    grid-column: span 2;
+    background-color: royalblue;
+    color: white;
+    text-align: justify;
+    font-style: italic ;
+    padding: 20px;}
+aside h2 {
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    border-bottom: 3px solid white;}
+
+.noni {
+    font-style: normal;
+}
+
+footer {
+    grid-column: span 12;
+
+}
+
+h1 {
+    font-weight: normal;
+    color: black;
+}
