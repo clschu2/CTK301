@@ -167,8 +167,13 @@ aside {
   margin: 24px 24px 24px 24px;
 }
 
+.embed {
+  border: solid black 3px;
+}
+
 img {
   width: 464px;
+  border: solid black 3px;
 }
 
 footer {
