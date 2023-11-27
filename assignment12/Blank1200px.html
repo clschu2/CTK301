@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CONNOR SCHUTZ</title>
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+	<link rel="stylesheet" href="fancy.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 class="header1">
+				<a href="Blank1200px.html">CONNOR</a>
+			</h1>
+			<h1 class="header2">
+				<a href="Blank1200px.html">SCHUTZ</a>
+			</h1>
+		</header>
+		<nav id="navgrid">
+			<ul>
+				<li class="podcasting"><a href="#">PODCASTING</a></li>
+				<li class="sound"><a href="#">SOUND DESIGN</a></li>
+				<li class="music"><a href="#">MUSIC</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>
+				ABOUT ME
+			</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam ratione ea eum hic obcaecati, natus id eligendi in, eaque, temporibus explicabo quia pariatur. Voluptates porro qui error explicabo ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae sapiente officia, perspiciatis neque voluptate ex, in, unde natus consequuntur temporibus ipsa sequi. Enim quia hic deleniti consequuntur, vel dolorum libero?
+			</p>
+		</main>
+		<aside>
+			<a href="Screenshot 2023-11-13 at 5.35.00 PM.png" data-fancybox="gallery" data-caption="">
+				<img src="Screenshot 2023-11-13 at 5.35.00 PM thumb.png" />
+			  </a>
+			  <a href="patch.jpg" data-fancybox="gallery" data-caption="Dry Up Patch">
+				<img src="patch_thumb.jpg" />
+			  </a>
+			  <a href="water.jpg" data-fancybox="gallery" data-caption="Water">
+				<img src="water_thumb.jpg" />
+			  </a>  
+			  <div id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="patch.jpg"></div>
+				<div class="f-carousel__slide"><img src="icecream.jpg"></div>
+				<div class="f-carousel__slide"><img src="water.jpg"></div>
+			</div>
+		</aside>
+		<footer>
+			<p>
+				CONNOR SCHUTZ
+			</p>
+		</footer>
+	</div>
+	<script>   
+		Fancybox.bind ("[data-fancybox]", {});
+	
+		const container = document.getElementById("myCarousel");
+	  const options = { infinite: false };
+	  
+	  new Carousel(container, options);
+	 </script>
+</body>
+</html>
