@@ -1,5 +1,6 @@
 body {
-  background-color: #999999;
+  background-color: gray;
+  background-image: url(CDG-dark-gray-background-repeating-2.jpg);
 }
 
 #wrapper {
@@ -171,7 +172,7 @@ h2:hover {
 
 aside {
   grid-column: span 6;
-  margin: 20px 0px 20px 80px;
+  margin: 20px 50px 20px 50px;
 }
 
 #myCarousel {
@@ -180,7 +181,7 @@ aside {
 
 #myCarousel .f-carousel__slide {
   text-align: center;
-  padding: 24px;
+  padding: 30px;
   background: #eee;
 }
 
@@ -195,6 +196,10 @@ aside {
 img {
   width: 420px;
   border: solid black 3px;
+}
+
+.video {
+  text-align: center;
 }
 
 footer {
